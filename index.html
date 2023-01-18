@@ -5,29 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/337be747ec.js" crossorigin="anonymous"></script>
-    <i class="fa-solid fa-magnifying-glass"></i>
-    <i class="fa-solid fa-angles-down"></i>
+    
+    
     <i class="fa-solid fa-bars"></i>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/mystyle.css">
+
 
     <title>National Geographic</title>
 </head>
 <body>
-    <nav>
-        <img src="images/nat-geo-logol.webp" alt="logo">
+    <nav class="navigation">
+        <div class="flex-container-logo">
+            <img class="logo" src="images/nat-geo-logol.webp" alt="logo">
+            <img class="frame" src="images/mobile-logo.png" alt="mobile">
+        </div> 
         <div class="menue">
-            <a href="http://" class="link-login">Login</a>      <!---missing links-->
-            <a href="http://" class="link-search">icon</a>
-            <a href="http://" class="link-subs">Subscribe</a>
-            <a href="http://" class="link-menue">Menu</a>
-            <a href="http://" class="link-arrows">icon</a>
+            <div class="flex-container-menu">
+                <a href="http://" class="link-login">Login</a>      <!---missing links-->
+                <a href="http://" class="link-search"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="http://" class="link-subs">Subscribe</a>
+                <a href="http://" class="link-menu">Menu</a>
+                <a href="http://" class="link-arrows"><i class="fa-solid fa-angles-down"></i></a>
+            </div>
         </div>
     </nav>
+    
     <header>
-        <h1 class="title">Latest stories</h1>
-        <p class="text"><span>Subscribe</span>for full access to read stories from National Geographic</p>      <!---link for subcribe?-->
         <div class="border">
+            <h1 class="title">LATEST STORIES</h1>
+                <p class="text"><span>Subscribe</span> for full access to read stories from National Geographic.</p>      <!---link for subcribe?-->
+                    <div class="rectangle"></div>
         </div>
     </header>
+    
     <main>  <!-----from here, check tags above----->
         <div class="news">
             <div class="main-news">

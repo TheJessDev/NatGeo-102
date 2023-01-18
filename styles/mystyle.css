@@ -1,0 +1,131 @@
+/*global*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+body{
+    font-family: 'Lato',sans-serif;
+    background-color: black;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+/*utilities*/
+
+
+/*nav*/
+nav.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 50px;
+    flex-basis: 500px;
+
+}
+
+nav .logo{
+    display: none;
+}
+
+nav .frame{
+    height: 30px;
+    padding-left: 15px;
+}
+
+a.link-login{
+    text-transform: uppercase;
+    font-size: 13px;
+    
+    font-weight:bolder;
+    letter-spacing:3px;
+    margin-right: 20px;
+    color: black;
+
+}
+
+a.link-search{
+    display: none;
+
+}
+
+a.link-subs{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing:3px;
+    margin-right: 20px;
+    background-color: black;
+    color: white;
+    padding: 17px;
+    border-bottom: 1px solid white;
+
+}
+
+a.link-subs:hover{
+    color: black;
+    background-color: goldenrod;
+}
+
+
+a.link-menu{
+    display: none;
+}
+
+a.link-arrows{
+    color: black;
+    margin-right: 20px;
+
+}
+
+a.link-arrows:hover{
+    color: lightgray;
+
+}
+/*header*/
+div.flex-container-logo{
+    flex-basis: 300px;
+}
+
+
+div.flex-container-menu{
+    align-items:baseline;
+   
+}
+
+h1{
+    text-align: center;
+    letter-spacing: 3px;
+    padding-top: 25px;
+}
+
+span{
+    text-decoration: underline gold;
+}
+
+span:hover{
+    color: black;
+    background-color: goldenrod;
+}
+
+header{
+    height: 199px;
+}
+
+p.text{
+    text-align: center;
+    padding-bottom: 53px;
+}
+
+div.border{
+    border: 3px solid goldenrod;
+}
+
+
+
+
