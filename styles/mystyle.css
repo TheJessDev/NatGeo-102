@@ -12,6 +12,7 @@ a{
 
 img{
     max-width: 100%;
+    
 }
 
 
@@ -20,6 +21,12 @@ img{
     width:95%;
     margin: 0 auto;
 }
+
+@media(min-width:768px) {
+    
+}
+
+
 
 .read-btn{
     text-transform: uppercase;
@@ -47,6 +54,16 @@ nav .logo{
 nav .frame{
     height: 30px;
     padding-left: 15px;
+}
+@media(min-width:768px){
+    nav .logo{
+        display: block;
+        height: 38px;
+        padding-left: 15px;
+    }
+    nav .frame{
+        display: none;
+    }
 }
 
 a.link-login{
@@ -88,6 +105,27 @@ a.link-arrows{
     margin-right: 20px;
 
 }
+a.link-news{
+    display: none;
+}
+
+@media(min-width:768px){
+    a.link-search{
+        display: inline-block;
+        margin-right: 20px;
+        color: black;
+    }
+    a.link-menu{
+        display: inline-block;
+        margin-right: 20px;
+        font-weight: bold;
+        color: black;
+    }
+    a.link.news{
+        display: inline-block;
+        margin-right: 20px;
+    }
+}
 
 a.link-arrows:hover{
     color: lightgray;
@@ -123,16 +161,14 @@ header{
     height: 199px;
 }
 
+
+
 p.text{
     text-align: center;
     padding-bottom: 53px;
 }
 
-div.border{
-    margin-left: 0;
-    border: 2px solid goldenrod;
-    width: 558px;
-}
+
 
 .rectangle{
     background-color: goldenrod;
@@ -145,6 +181,12 @@ div.border{
 }
 
 /*main-news*/
+@media(min-width:768px){
+    main{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
 .main-news{
     position: relative;
     /*relative*/
@@ -185,9 +227,30 @@ div.border{
     letter-spacing: 1px;
 
 }
+@media(min-width:768px){
+    .secondary-news-container{
+        display: flex;
+    }
+    .news{
+        flex-basis: 70%;
+    }
+    .todays-picks{
+        flex-basis: 30%;
+    }
+}
 
 .secondary-news{
     height: 400px;   
+}
+@media(min-width:768){
+    .secondary-news:first-of-type{
+        flex-basis:50%;
+        margin-right:10px;
+    }
+    .secondary-news:last-of-type{
+        flex-basis: 50%;
+        margin-left: 10px;
+    }
 }
 
 .secondary-news img{

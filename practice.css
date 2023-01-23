@@ -1,0 +1,97 @@
+.table-1{
+    border-collapse:collapse;
+    border:1px solid black;
+}
+td,th{
+    border:1px solid black;
+    width: 100px;
+    text-align: center;
+}
+.red-flag{
+    color: red;
+}
+tr:nth-child(even){
+    background-color:lemonchiffon;
+}
+
+
+/*Table-2*/
+.table-2{
+    border-collapse: collapse;   
+}
+
+.table-2-header{
+    height: 33px;
+    background-color: lightblue;
+}
+
+.table-2 td{
+    background-color: white;
+}
+
+
+/*flex-box*/
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+    height: 300px;
+}
+.flex-item{
+    background-color: aqua;
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+}
+
+/*responsive*/
+.site-header nav{
+    /*mobile*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media(min-width:768px){
+    /*the elements that will be modified*/
+    .site-header nav{
+        /*desktop*/
+        flex-direction:row;
+        justify-content: space-between;
+    }
+}
+
+/*form*/
+.form p{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+input.product-name{
+    height: 30px;
+    
+}
+
+.btn{
+    background-color: lightgreen;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
